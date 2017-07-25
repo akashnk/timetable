@@ -105,7 +105,7 @@
   <a href="https://akashnk.github.io/timetable/about.html">About</a>
 </div>
 <body>
-    <table width="80%" align="center" >
+    <table id="timet" width="80%" align="center" >
     <div id="head_nav">
     <tr>
         <th>Time</th>
@@ -230,8 +230,8 @@
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
     
-								<li><a href="#" onclick="$('#employees').tableExport({type:'png',escape:'false'});"> <img src="images/png.png" width="24px"> PNG</a></li>
-								<li><a href="#" onclick="$('#employees').tableExport({type:'pdf',pdfFontSize:'7',escape:'false'});"> <img src="images/pdf.png" width="24px"> PDF</a></li>
+								<li><a href="#" onclick="$('#timet').tableExport({type:'png',escape:'false'});"> <img src="images/png.png" width="24px"> PNG</a></li>
+								
 								
   </ul>
 </div>
